@@ -31,10 +31,10 @@ main {
 
 .pokemon_gif {
     position: absolute;
-    width: 30%;
     bottom: 52%;
     left: 65%;
     transform: translate(-80%, 20%);
+    height: 18%;
 
 }
 
@@ -50,9 +50,8 @@ main {
 .pokemon_name {
     color: #252525;
     text-transform: capitalize;
-    top: 60.5%;
+   
 }
-
 
 .form {
     position: absolute;
@@ -63,9 +62,9 @@ main {
 
 .input_search {
     position: absolute;
-    width: 125%;
+    left: 5%;
+    width: 130%;
     padding: 5%;
-    left: 10%;
     outline: none;
     border: 5px solid rgb(3, 3, 3);
     border-radius: 5px;
@@ -77,9 +76,9 @@ main {
 
 .buttons {
     position: absolute;
-    bottom: 10%;
-    left: 60%;
-    width: 65%;
+    bottom: 13%;
+    left: 61%;
+    width: 80%;
     transform: translate(-57%, 0);
     display: flex;
     gap: 20px;
