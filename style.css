@@ -25,14 +25,14 @@ main {
 
 
 .pokedex {
-    width: 130%;
+    width: 120%;
     max-width: 612px;
 }
 
 .pokemon_gif {
     position: absolute;
     bottom: 52%;
-    left: 65%;
+    left: 62%;
     transform: translate(-80%, 20%);
     height: 18%;
 
@@ -40,14 +40,20 @@ main {
 
 .pokemon_data {
     position: absolute;
+    font-size: 100%;
     font-weight: 600;
     color: rgb(112, 109, 109);
     top: 58.5%;
-    right: 10%;
-    font-size: clamp(8px, 5vw, 25px);
+    right: 16%;
+    font-size: clamp(1px, 5vw, 25px);
+}
+
+.pokemon_number{
+    font-size: 80%;
 }
 
 .pokemon_name {
+    font-size: 80%;
     color: #252525;
     text-transform: capitalize;
    
@@ -63,7 +69,7 @@ main {
 .input_search {
     position: absolute;
     left: 5%;
-    width: 130%;
+    width: 120%;
     padding: 5%;
     outline: none;
     border: 5px solid rgb(3, 3, 3);
@@ -77,8 +83,8 @@ main {
 .buttons {
     position: absolute;
     bottom: 13%;
-    left: 61%;
-    width: 80%;
+    left: 55%;
+    width: 70%;
     transform: translate(-57%, 0);
     display: flex;
     gap: 20px;
