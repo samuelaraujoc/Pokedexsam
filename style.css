@@ -35,35 +35,35 @@ iframe{
     position: absolute;
     margin-top: 10%;
     right: 110%;
+    
 }
 
 
 .pokedex {
-    width: 120%;
-    max-width: 612px;
+    width: 100%;
+    max-width: 425px;
 }
 
 .pokemon_gif {
     position: absolute;
     bottom: 52%;
-    left: 62%;
+    left: 53%;
     transform: translate(-80%, 20%);
-    height: 18%;
+    height: 15%;
 
 }
 
 .pokemon_data {
     position: absolute;
-    font-size: 100%;
     font-weight: 600;
     color: rgb(112, 109, 109);
     top: 58.5%;
-    right: 16%;
+    right: 30%;
     font-size: clamp(1px, 5vw, 25px);
 }
 
 .pokemon_number{
-    font-size: 80%;
+    font-size: 100%;
 }
 
 .pokemon_name {
@@ -83,7 +83,7 @@ iframe{
 .input_search {
     position: absolute;
     left: 5%;
-    width: 120%;
+    width: 100%;
     padding: 5%;
     outline: none;
     border: 5px solid rgb(3, 3, 3);
@@ -96,9 +96,9 @@ iframe{
 
 .buttons {
     position: absolute;
-    bottom: 13%;
-    left: 55%;
-    width: 70%;
+    bottom: 10%;
+    left: 49%;
+    width: 60%;
     transform: translate(-57%, 0);
     display: flex;
     gap: 20px;
