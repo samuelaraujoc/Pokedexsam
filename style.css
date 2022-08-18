@@ -14,12 +14,12 @@ body {
     min-height: 100vh;
 }
 
-footer{
+footer {
     bottom: 0;
     position: fixed;
     width: 100%;
     text-align: center;
-    background-color:rgb(222, 220, 241);
+    background-color: rgb(222, 220, 241);
 }
 
 main {
@@ -31,11 +31,11 @@ main {
 
 }
 
-iframe{ 
+iframe {
     position: absolute;
     margin-top: 10%;
     right: 110%;
-    
+
 }
 
 
@@ -62,7 +62,7 @@ iframe{
     font-size: clamp(1px, 5vw, 25px);
 }
 
-.pokemon_number{
+.pokemon_number {
     font-size: 100%;
 }
 
@@ -70,7 +70,7 @@ iframe{
     font-size: 80%;
     color: #252525;
     text-transform: capitalize;
-   
+
 }
 
 .form {
@@ -116,7 +116,7 @@ iframe{
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 }
 
-.button:active{
+.button:active {
     box-shadow: inset -4px 4px 0 #000;
     font-size: 0.9rem;
 }
