@@ -1,4 +1,4 @@
-# Pokédex.
+# Pokédex
 
 
 ![Projeto](img/PokedexRD.gif)
